@@ -1,0 +1,15 @@
+<?php
+$host="localhost";
+$username="dynamlo5_site";
+$password="2K?avtkimpmV";
+$dbname="dynamlo5_site";
+?>
+
+<?php 
+//$host="localhost";
+//$username="root";
+//$password="";
+//$dbname="dynamic_test";
+
+
+?>

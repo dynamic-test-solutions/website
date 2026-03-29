@@ -1,0 +1,67 @@
+/*
+ * jQuery Blueberry Slider v0.4 BETA
+ * http://marktyrrell.com/labs/blueberry/
+ *
+ * Copyright (C) 2011, Mark Tyrrell <me@marktyrrell.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+.blueberry { margin: 0 auto; }
+.blueberry .slides {
+	display: block !important;
+	position: relative !important;
+	overflow: hidden !important;
+}
+.blueberry .slides li {
+	position: absolute !important;
+	top: 0;
+	left:0;
+	overflow: hidden !important;
+}
+.blueberry .slides li img {
+	display: inline !important;
+	width: 100% !important;
+	max-width: none !important;
+}
+.blueberry .slides li.active { display: block !important; position: relative !important; }
+.blueberry .crop li img { width: auto !important; }
+
+.blueberry .pager00 {
+	height: 40px !important;
+	text-align: center !important;
+}
+.blueberry .pager00 li { display: inline-block !important; }
+.blueberry .pager00 li a,
+.blueberry .pager00 li a span {
+	display: block !important;
+	height: 4px !important;
+	width: 4px !important;
+}
+.blueberry .pager00 li a {
+	padding: 18px 8px !important;
+-webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.blueberry .pager00 li a span {
+	overflow: hidden !important;
+	background: #c0c0c0 !important;
+	text-indent: -9999px !important;
+-webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.blueberry .pager00 li.active a span { background: #404040 !important; }

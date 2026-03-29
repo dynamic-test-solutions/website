@@ -1,0 +1,11 @@
+*.zip
+*.sql
+*.php
+plesk-stat/
+Back up 15022022/
+test/
+test-25-jun-15/
+httpdocs/
+.htaccess
+indebak-*.html
+index-*.html

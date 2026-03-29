@@ -1,0 +1,5 @@
+[15-Feb-2016 21:44:24 America/Denver] PHP Notice:  Undefined variable: username in /home6/ekkigrou/public_html/ekkigroup/ekki/admin/ckeditor/plugins/imageuploader/check_permission.php on line 9
+[15-Feb-2016 21:44:24 America/Denver] PHP Notice:  Undefined variable: password in /home6/ekkigrou/public_html/ekkigroup/ekki/admin/ckeditor/plugins/imageuploader/check_permission.php on line 9
+[16-Feb-2016 03:38:35 America/Denver] PHP Warning:  getimagesize(): Filename cannot be empty in /home6/ekkigrou/public_html/ekkigroup/ekki/admin/ckeditor/plugins/imageuploader/imgupload.php on line 44
+[16-Feb-2016 22:38:40 America/Denver] PHP Warning:  getimagesize(): Filename cannot be empty in /home6/ekkigrou/public_html/ekkigroup/ekki/admin/ckeditor/plugins/imageuploader/imgupload.php on line 44
+[16-Feb-2016 22:57:43 America/Denver] PHP Warning:  getimagesize(): Filename cannot be empty in /home6/ekkigrou/public_html/ekkigroup/ekki/admin/ckeditor/plugins/imageuploader/imgupload.php on line 44
