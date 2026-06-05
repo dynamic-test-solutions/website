@@ -1,196 +1,114 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="images/dts.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-<link rel="stylesheet" type="text/css" href="css/dts_styles.css"/>
-<link rel="stylesheet" type="text/css" href="css/blueberry.css"/>
-<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css"/>
-<link rel="stylesheet" type="text/css" href="css/slicknav.css"/>
-<script type="text/javascript" src="js/jquery.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/dropdown-hover.js"></script>
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="js/jquery.slicknav.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-	$('#menu').slicknav();
-});
-</script>
-<style>
-.banner {
-	position: relative;
-	overflow: auto;
-	border-left:4px solid #24621F;
-}
-.banner li {
-	list-style: none;
-	font-size:17px;
-}
-.banner ul li {
-	float: left;
-}
-</style>
-<title>Dynamic Test Solutions Inc</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dynamic Test Solutions – Coming Soon</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123333665-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    body {
+      background-color: #0d0d0d;
+      color: #ffffff;
+      font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
 
-  gtag('config', 'UA-123333665-1');
-</script>
+    .logo-wrap {
+      margin-bottom: 3rem;
+      animation: fadeInDown 0.8s ease both;
+    }
 
+    .logo-wrap img {
+      max-width: 260px;
+      width: 50vw;
+    }
 
+    .divider {
+      width: 60px;
+      height: 3px;
+      background: #1db878;
+      border-radius: 2px;
+      margin: 0 auto 2.5rem;
+      animation: fadeIn 1s ease 0.3s both;
+    }
+
+    h1 {
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      font-weight: 300;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #cccccc;
+      margin-bottom: 1.2rem;
+      animation: fadeIn 1s ease 0.5s both;
+    }
+
+    h1 span {
+      color: #1db878;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: clamp(0.95rem, 2vw, 1.1rem);
+      color: #888;
+      letter-spacing: 0.06em;
+      line-height: 1.8;
+      max-width: 480px;
+      animation: fadeIn 1s ease 0.7s both;
+    }
+
+    p em {
+      color: #aaa;
+      font-style: normal;
+    }
+
+    .tagline {
+      margin-top: 2.5rem;
+      animation: fadeIn 1s ease 1s both;
+    }
+
+    .tagline img {
+      max-width: 280px;
+      width: 55vw;
+      opacity: 0.5;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+  </style>
 </head>
 <body>
-<!--Navigation Starts Here-->
-<div id="nav" class="container1">
-  <div class="container">
-    <div class="row">
-      <div >
-        <ul class="nav nav-pills" id="menu">
-          <li class="active" style="border-left:0;"><a class="green_txt" href="index.html">Home</a> </li>
-          <li class="dropdown"><a  href="#" data-toggle="dropdown" class="dropdown-toggle green_txt">About Us<b class="caret"></b></a>
-            <ul class="dropdown-menu" id="menu2">
-              <li><a href="lang/en/aboutus/business.html">Our Business</a></li>
-              <li><a href="lang/en/aboutus/our-value-add.html">Our Value Add</a></li>
-              <li><a href="lang/en/aboutus/quality.html">Our Quality</a></li>
-              <li><a href="lang/en/aboutus/history.html">Our History</a></li>
-              <li><a href="lang/en/aboutus/our-locations.html">Our Locations</a></li>  
-            </ul>
-          </li>
-          <li class="dropdown"><a  href="#" data-toggle="dropdown" class="dropdown-toggle green_txt">Products <b class="caret"></b></a>
-            <ul class="dropdown-menu" id="menu2">
-              <li><a href="lang/en/products/package.html">Package Test Loadboards/DIB</a></li>
-              <li><a href="lang/en/products/wafer.html">Wafer Probe Loadboards/PIB</a></li>
-              <li><a href="lang/en/products/probe.html">Probe Card PCBs</a></li>
-              <li><a href="lang/en/products/bench.html">Bench & Characterization Boards</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a  href="#" data-toggle="dropdown" class="dropdown-toggle green_txt">Services<b class="caret"></b></a>
-            <ul class="dropdown-menu" id="menu2">
-              <li><a href="lang/en/design/design.html">Design</a></li>
-              <li><a href="lang/en/design/fabrication.html">Fabrication</a></li>
-              <li><a href="lang/en/design/assembly.html">Assembly</a></li>
-              <li><a href="lang/en/design/turnkey.html">Turn Key</a></li>
-            </ul>
-          </li>
-          <li><a class="green_txt" href="lang/en/testerplatforms/index.html">Tester Platforms</a> </li>
-          <!--<li class="dropdown"><a  href="lang/en/buy/"  class="dropdown-toggle green_txt">Buy <b class="caret"></b></a>
-          	<ul class="dropdown-menu" id="menu2">
-              <li><a href="lang/en/buy/product-category/package-test-loadboards/">Package Test Loadboards</a></li>
-              <li><a href="lang/en/buy/product-category/wafer-probe-loadboards/">Wafer Probe Loadboards/PIB</a></li>
-              <li><a href="lang/en/buy/product-category/probe-card-pcbs/">Probe Card PCBs</a></li>
-              <li><a href="lang/en/buy/product-category/motherboards/">Motherboards</a></li>
-              <li><a href="lang/en/buy/product-category/cables-connectors-mechanical-stiffeners/">Cables / Connectors / <br />Mechanical Stiffeners</a></li>
-            </ul>
-          </li>-->
-          <li><a class="green_txt" href="lang/en/news/index.html">News</a> </li>
-          <li ><a class="green_txt" href="lang/en/career/index.php">Employment Opportunities</a> </li>
-          <li><a class="green_txt" href="lang/en/Inquiry/index.php">Inquiry</a> </li>
-          <li style="border-right:0;"><a class="green_txt" href="lang/en/contactus/index.html">Contact Us</a> </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<!--Navigation Ends Here-->
-<!--Logo Area Starts here-->
-<div class="container">
-  <div class="row">
-    <div id="logo" class="span3"> <img src="images/DTS_logo.jpg"  height="85" alt="dts logo" /> </div>
-    <div class="span3 tagline">
-    	<div class="tag-content">
-    		<h4 class="blk-text logo-ctn mctest_news"><em>A Small Company with a Big Footprint!</em></h4>
-        </div>
-    </div>
-    <div class="tagline">
-    
-		<div class="mctest_button">
-		<a href="pdf/DTS Company Overview Website_January 2022.pdf" target="_blank" class="down">Download</a><br />
 
-        Company Overview
-		</div>
-  
-    </div>
+  <div class="logo-wrap">
+    <img src="DTS-LOGO2-PNG- full-color..png" alt="Dynamic Test Solutions Logo" />
   </div>
-</div>
-<!--Logo Area end here-->
-<!--Slider Starts here-->
-<div id="slides" class="container1">
-<div class="container">
-  <div class="row">
-    <div class="span12">
-      <div class="span8 move-left">
-        <h3 class="mission-text">Our mission is to <span class="span-mission">partner</span>&nbsp; with our valued customers and suppliers to provide comprehensive industry leading semiconductor test solutions</h3>
-      </div>
-      <div class="clearfix"></div>
-      <br />
-      <div class="span7 move-slogan-left">
-        
-      </div>
-    </div>
-    <img src="images/slide1.jpg" /> </div>
-</div>
-<!--Slider ends here-->
-<!--Content area starts here-->
-<div id="content_area" class="container1">
-  <div class="container">
-    <div class="row">
-      <div class="span6 left0">
-        <div class="pad20px_r right0">
-          <div class="page-header">
-            <h2 class="green_txt">About Dynamic Test Solutions (DTS)</h2>
-          </div>
-          <p class="home_text">Dynamic Test Solutions (DTS) was founded in 2003 by a team of individuals with vast experience in the semiconductor loadboard design business. Headquartered in Singapore, the company is structured to support the design, fabrication and assembly of both custom and generic PCBs for wafer and package test applications and provide complete turn-key ATE hardware solutions.</p>
-          <!--<a href="lang/en/aboutus/index.html">Read more</a>-->
-        </div>
-      </div>
-      <div class="span6">
-        <div class="pad20px_r">
-          <div class="page-header">
-            <h2 class="green_txt">Global Service &amp; Support</h2>
-          </div>
-          <p class="home_text">DTS has built its reputation on providing outstanding customer service. Taking that service and support directly to the customer in locations throughout the world is what differentiates DTS from the competition. DTS has built a global organization that includes sales, customer service, applications engineering, design centers, PCBs fabrication, assembly and Quality Assurance in all key geographic regions.</p>
-          <!--<a href="lang/en/aboutus/index.html">Read more</a>-->
-        </div>
-      </div>
-    </div>
+
+  <div class="divider"></div>
+
+  <h1>Currently Under <span>Construction</span></h1>
+
+  <p>
+    We test everything —<br>
+    <em>including new websites.</em><br><br>
+    Check back soon.
+  </p>
+
+  <div class="tagline">
+    <img src="DTS-TEXT-PNG- full-color..png" alt="Dynamic Test Solutions" />
   </div>
-</div>
-<!--Content area ends here-->
-<!--Footer starts here-->
-<br />
-<br />
-<div id="footer"  class="container1">
-  <div class="container">
-    <div class="row">
-      <div class="span9 footer left0">
-        <!--<ul class="nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="lang/en/aboutus/index.html">About Us</a></li>
-          <li><a href="lang/en/products/package.html">Products</a></li>
-          <li><a href="lang/en/design/design.html">Services</a></li>
-          <li><a href="lang/en/testerplatforms/index.html">Tester Platforms</a></li>
-          <li><a href="lang/en/press/index.html">News</a></li>
-          <li><a style="border:0" href="lang/en/contactus/index.html">Contact Us</a></li>
-        </ul>-->
-        <br />
-        <div>Copyright © 2015 www.dynamic-test.com. All rights reserved.</div>
-      </div>
-      <!--<div class="span3" style="text-align:right"> Website by <a href="http://www.thedreammakerz.com" target="_blank">Dream Makerz</a></div>-->
-    </div>
-  </div>
-</div>
-<!--Footer ends here-->
+
 </body>
 </html>
-<!--<script type="text/javascript" src="js/custom.js"></script>
-
-<script type="text/javascript" src="js/jquery.ticker.js"></script>-->
